@@ -1,0 +1,12 @@
+body{
+background-color:#4C4646;}
+#whole {background-color: #FFFFFF; margin: 10%; padding-top:5px; padding-bottom:5px;}
+
+#slackusername {text-align:center; color:#0C090A;}
+#goals {text-align: center; color:#000000;}
+#time {text-align: center;}
+#link {text-align: center;}
+a {font-size: 20px; padding-right: 20px;}
+
+
+

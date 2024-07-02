@@ -1,0 +1,60 @@
+<html>
+ <head>
+   <title>Ejalonibu Damilola</title>
+   <link rel="stylesheet" type="text/css" href="css/hng.css" media="screen">
+ </head>
+ <body>
+   <div id= "whole">
+	    <div id= slackusername>
+		   <h1>Ejalonibu Damilola</h1>
+		   <p data-testid="slackDisplayName"><img src ="images/slack.png">@damiloladeborah</p>
+		   <p data-testid="slackEmail"><img src ="images/email.png">ejalonibudamilola96@gmail.com</p>
+		   <img data-testid="slackProfilePicture" src ="images/dam.jpg">
+		</div>	 
+		
+		<div id="goals">
+			<h2>My Goals</h2>
+			<p>My name is EJALONIBU Damilola, I am on the front end track in<br/>
+			the HNG 11 Internship,I look forward to becoming a seasoned front<br/> end developer at the end of the HNG 11 Internship.
+			I am good with teamwork<br/> and I love the tech world.</p>
+			<p>
+				I am a tech enthusiast who is interested in using technology as a problem solving tool,<br/>
+				I intend to acquire front end skills from this internship that spans for 3 months to add to my<br/>
+				Java - Spring Boot backend skills. By the end of this year, 2024, I intend to become a full stack developer,<br/>
+				of which the front end technology will be React. I look forward to the seasoned training HNG is about to expose us to<br/> 
+				on front end technology- React				 
+			</p>
+			<p>
+				In 2025 I intend to venture into cloud engineering, to enable me gain a full understanding on monolithic and microservices<br/>
+				especially in their deployement on the server, I also want to dive into docker and kubernetes, basically understanding what cloud<br/>
+				engineering entails.
+			</p>
+		</div>
+
+		<div id="time">
+			<p><strong>Current UTC Time:</strong> <span id="currentTime" data-testid="currentTimeUTC"></span></p>
+			<p><strong>Current Day:</strong> <span id="today" data-testid="currentDay"></span></p>
+
+		</div>
+		<div id="link">
+			<a target="_blank" data-testid="hngLink" href="https://hng.tech/learn">HNG Learn</a>
+			<a target="_blank" data-testid="keywordLink" href="https://keyword.dog/">Keyword</a>
+			<a target="_blank" data-testid="scrapeanywebLink" href="https://scrapeanyweb.site/">Scrape any website</a>
+		</div>
+	
+		
+	</div>
+
+	<script>	
+		var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+		let todayTime = new Date();
+		todayUTCTime = todayTime.toUTCString();
+		today = days[todayTime.getUTCDay()];
+
+		document.getElementById("currentTime").innerHTML = todayUTCTime;
+		document.getElementById("today").innerHTML = today;
+
+
+	</script>
+ </body>
+</html>
