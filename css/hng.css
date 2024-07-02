@@ -1,12 +1,39 @@
-body{
-background-color:#4C4646;}
-#whole {background-color: #FFFFFF; margin: 10%; padding-top:5px; padding-bottom:5px;}
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+section{
+    padding: 60px 0;
+}
+
+
+#whole {
+    background-color: #FFFFFF; 
+    margin: auto; 
+    padding-top:2%; 
+    padding-bottom:2%; 
+    background: url(../images/bg.png) top center no-repeat;background-size: cover;
+    border: 1px solid #af9c9c;
+    border-radius: 1em;
+    width:80%;
+    line-height: 2;
+}
 
 #slackusername {text-align:center; color:#0C090A;}
 #goals {text-align: center; color:#000000;}
 #time {text-align: center;}
-#link {text-align: center;}
-a {font-size: 20px; padding-right: 20px;}
+#link {text-align: center; margin-bottom: 2%;}
+a {font-size: 20px; padding-right: 20px; padding-bottom: 20px;}
+p{padding:10px 40px}
+h1{font-size: 60px;}
+h2{font-size: 50px;}
 
 
+
+@media (max-width: 1024px) {
+    a {font-size: 30px; padding-right: 2%;}
+    p{font-size: 30px;}
+
+  }
 
